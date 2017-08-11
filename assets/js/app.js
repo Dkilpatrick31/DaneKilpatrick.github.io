@@ -1,4 +1,4 @@
-console.log("Welcome to my page! -Dane");
+console.log("Hi, I see you've managed to find my portfolio! -Dane");
 
 $( document ).ready(function() {
 

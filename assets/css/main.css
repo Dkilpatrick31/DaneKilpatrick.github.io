@@ -189,8 +189,7 @@ ul.polaroids a:after {
 }
 
 .profile-img {
-	/*border-radius: 50%;*/
-	width: 300px;
+	width: 280px;
 	height: 420px;
 	margin-bottom: 20px;
 }

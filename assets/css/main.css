@@ -20,22 +20,24 @@ h4,
 h5,
 h6 {
     font-family: 'Open Sans','Varela Round',Arial,sans-serif;
-			color: #5B5B5B;
+		color: #5B5B5B;
 }
+
 h1 {
 	font-size: 15px;
 }
 
 h2 {
 	font-size: 50px;
-}``
-
-.about-me {
-	margin-top: 20px;
-	margin-bottom: 20px;
 }
 
-/*Navigation Bar*/
+p {
+	text-align:
+
+}
+
+ /* Navigation Bar */
+
 .grow:hover
 {
   -webkit-transform: scale(1.28);
@@ -56,7 +58,6 @@ h2 {
   background-color: white !important;
   transition: background-color 200ms linear;
 	color: #10225B !important;
-
 }
 
 .navbar-default .navbar-header .navbar-brand {
@@ -106,12 +107,12 @@ h2 {
         color: #10225B;
     }
 
-    .navbar-default .nav > li>a,
+    .navbar-default .nav >li>a,
     .navbar-default .nav>li>a:focus {
         color: #39589F;
     }
 
-    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav >li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
         color: #10225B;
     }
@@ -131,12 +132,12 @@ h2 {
         color: #39589F;
     }
 
-    .navbar-default.affix .nav > li>a,
+    .navbar-default.affix .nav >li>a,
     .navbar-default.affix .nav>li>a:focus {
         color: #10225B;
     }
 
-    .navbar-default.affix .nav > li>a:hover,
+    .navbar-default.affix .nav >li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #10225B;
     }
@@ -165,10 +166,11 @@ header .header-content {
 	font-size: 30px;
 }
 
-section, #contact {
+section,
+#contact {
 	position: relative;
 	width: 100%;
-	padding: 80px 15px;
+	padding: 30px 15px 25px 10px;
 	text-align: center;
 }
 
@@ -197,7 +199,7 @@ ul.polaroids a:after {
 
 .profile-content {
 	color: #10225B;
-	margin-top: 100px;
+	margin: 10px 30px 25px 30px;
 	text-align: center;
 	font-size: 17px;
 }
@@ -216,6 +218,7 @@ h3 {
 	font-size: 30px;
 	margin: 0;
 	padding-bottom: 10px;
+	padding-top: 0;
 }
 
 .bg-primary {
@@ -224,23 +227,17 @@ h3 {
 
 #contact {
     background-color: whitesmoke;
-		padding-top: 200px;
-		padding-bottom: 200px;
+		/* padding-top: 10px;
+		padding-bottom: 10px; */
 }
 
 .contact-header {
 	color: white;
-	margin-top: 100px;
+	margin-top: 50px;
 }
-
-.bg-about {
-
-}
-
 
 p, #projects, #contact{
 	color: #10225B;
-
 }
 
 #projects{
@@ -257,13 +254,16 @@ p, #projects, #contact{
 	height: 100%;
 	width: 100%;
 }
-
-#drone-image {
+#adopt-image,
+#drone-image,
+#geoquakes-image,
+#tic-tac-image {
 	height: 313px;
 }
 
 .project-name {
 	padding: 15px;
+	font-weight: bold;
 }
 
 .color-box:hover {
@@ -303,13 +303,6 @@ p, #projects, #contact{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-/* .project-image {
-	width: 100%;
-	height: 80%;
-} */
-.picture-container:hover .overlay {
-	opacity: 0.9;
-}
 
 .project-link {
 	font-size: 30px;
@@ -318,7 +311,7 @@ p, #projects, #contact{
 
 .project-name{
 	text-align: center;
-	/* margin: 15px; */
+	margin: 15px;
 }
 
 .portfolio-box-caption {
@@ -376,5 +369,5 @@ p, #projects, #contact{
 	background-size: cover;
 	width: 100%;
 	position: relative;
-	min-height: 50%;
+	min-height: 5%;
 }

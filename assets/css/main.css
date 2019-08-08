@@ -192,9 +192,11 @@ ul.polaroids a:after {
 }
 
 .profile-img {
-	width: 280px;
-	height: 420px;
+	width: 215px;
+	height: 320px;
 	margin-bottom: 20px;
+	border-radius: 3%;
+	box-shadow: 0 3px 2px rgba(1, 2, 2, 1);
 }
 
 .profile-content {
@@ -233,7 +235,7 @@ h3 {
 
 .contact-header {
 	color: white;
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
 p, #projects, #contact{
@@ -241,8 +243,8 @@ p, #projects, #contact{
 }
 
 #projects{
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 30px;
+	padding-bottom: 10px;
 	background-color: white;
 }
 
@@ -370,4 +372,16 @@ p, #projects, #contact{
 	width: 100%;
 	position: relative;
 	min-height: 5%;
+}
+
+
+@media (min-width: 1200px){
+		.profile-content {
+			margin-top: 75px;
+			width: 450px;
+		}
+
+		#selfie {
+			margin-left: 55px;
+		}
 }

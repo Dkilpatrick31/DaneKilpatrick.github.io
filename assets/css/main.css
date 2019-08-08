@@ -28,7 +28,7 @@ h1 {
 
 h2 {
 	font-size: 50px;
-}
+}``
 
 .about-me {
 	margin-top: 20px;
@@ -249,13 +249,35 @@ p, #projects, #contact{
 	background-color: white;
 }
 
+.projects-container {
+	margin: 15px;
+}
+
+.project-image {
+	height: 100%;
+	width: 100%;
+}
+
+#drone-image {
+	height: 313px;
+}
+
+.project-name {
+	padding: 15px;
+}
+
 .color-box:hover {
   background-color: #10225B;
 	color: white;
 }
 
 .shadow-box:hover {
-	box-shadow: 0 1px 2px rgba(0,0,0,0.8);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.shadow-box {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .overlay {
@@ -281,10 +303,10 @@ p, #projects, #contact{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-.project-image {
+/* .project-image {
 	width: 100%;
 	height: 80%;
-}
+} */
 .picture-container:hover .overlay {
 	opacity: 0.9;
 }
@@ -296,8 +318,8 @@ p, #projects, #contact{
 
 .project-name{
 	text-align: center;
+	/* margin: 15px; */
 }
-
 
 .portfolio-box-caption {
 	padding-top: 10px;

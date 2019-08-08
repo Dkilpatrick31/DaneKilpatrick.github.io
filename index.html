@@ -28,8 +28,10 @@
 </head>
 
 <body id="top" onload="document.body.style.opacity='1'">
+
   <!-- NAVIGATION -->
   <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -39,7 +41,6 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand grow" href="#top">DK</a>
-
       </div>
 
       <div class="collapse navbar-collapse" id="navbar" >
@@ -49,23 +50,31 @@
           <li><a class="grow" href="#projects">Projects</a></li>
           <li><a class="grow" href="#contact">Contact</a></li>
         </ul>
-
       </div>
     </div>
+
   </nav>
+
   <!-- HEADER -->
   <section class="bg-header" id="header" style="background-image: url('assets/images/Water2.jpg')">
-  <div <class="header-content">
-      <div class="header-content-inner">
-        <h1 class="header-name">Dane Kilpatrick</h1>
-        <h4 class="header-position">Front End Web Developer<h4>
+
+    <header>
+
+      <div <class="header-content">
+        <div class="header-content-inner">
+          <h1 class="header-name">Dane Kilpatrick</h1>
+          <h4 class="header-position">Front End Web Developer<h4>
         </div>
-    </div>
-  </header>
-  <div class="paralax"></div>
-</section>
+      </div>
+
+    </header>
+
+    <div class="paralax"></div>
+
+  </section>
   <!--  ABOUT ME  -->
   <section class="bg-about" id="about">
+
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -73,81 +82,102 @@
           <hr>
         </div>
         <div class="col-lg-4 col-lg-offset-2 text-center">
-            <p class="profile-content">I am an adaptable and creative web developer. I pursue collaborative projects that have a meaningful and impactful outcome on everyday life. I utilize my experience in technology sales to help resolve current problems in the tech industry. I have a passion for the aesthetic side of web development that impacts the overall exeprience of the user.</p>
-          </div>
-          <div class="col-lg-4 col-lg-offset-2 text-center">
-            <img class="profile-img" src="assets/images/Dane.png" alt="Profile">
-          </div>
+          <p class="profile-content">I am an adaptable and creative web developer. I pursue collaborative projects that have a meaningful and impactful outcome on everyday life. I utilize my experience in technology sales to help resolve current problems in the tech industry. I have a passion for the aesthetic side of web development that impacts the overall exeprience of the user.</p>
+        </div>
+        <div class="col-lg-4 col-lg-offset-2 text-center">
+          <img class="profile-img" src="assets/images/Dane.png" alt="Profile">
         </div>
       </div>
     </div>
+
   </section>
-  <!-- PROJECTS -->
+  <!-- Start of Projects -->
   <section class="bg-primary no-padding" id="projects">
+
     <div class="container">
+
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center">
           <h3>Projects</h3>
           <hr>
-
+        </div>
       </div>
-      <div class="row">
+
+      <div class="row projects-container">
         <div class="project-box col-lg-6 text-center">
-          <div class="project-name">
-            <a href="https://github.com/DKilpatrick31/Adopt_A_Woof"></i>Adopt A Woof</a>
-          </div>
-              <a href="https://adopt-a-woof.herokuapp.com/" target="_blank" class="portfolio-box">
           <div class="picture-container">
-              <img src="assets/images/AdoptAWoof.png" class="project-image shadow-box" alt="Project Image">
-              </a>
+            <a href="https://adopt-a-woof.herokuapp.com/" target="_blank" class="portfolio-box">
+              <img src="assets/images/AdoptAWoof.png" class="project-image shadow-box" alt="Adopt A Woof Project Image">
+            </a>
+            <div class="project-name">
+              <a href="https://github.com/DKilpatrick31/Adopt_A_Woof"></i>Adopt A Woof</a>
+            </div>
             <div class="portfolio-box-caption">
-              <p style="margin-bottom: 44px;margin-top: 27px;"> An online web application that is tailored for dog-lovers to find their next bestfriend. Built using Python and Django. Data hosted on SQLite databases allowing users to create, read, update and delete entries.</p>
+              <p> An online web application that is tailored for dog-lovers to find their next bestfriend. Built using Python and Django. Data hosted on SQLite databases allowing users to create, read, update and delete entries.</p>
             </div>
           </div>
-
         </div>
-        <div class="project-box col-lg-6">
-          <div class="project-name">
-            <a href="https://github.com/ZippyFPV/DroneDB"></i>DroneDB</a>
+
+        <div class="project-box col-lg-6 text-center">
+          <div class="picture-container">
+            <a href="http://dronedatabase.herokuapp.com/" target="_blank" class="portfolio-box">
+              <img src="assets/images/drone-shot2.png" id="drone-image" class="project-image shadow-box" alt="DroneDB Project Image">
+            </a>
+            <div class="portfolio-box-caption">
+              <div class="project-name">
+                <a href="hhttps://github.com/ZippyFPV/DroneDB"></i>DroneDB</a>
+              </div>
+              <p style="margin-bottom: 44px;margin-top:60px;">This project was built as a collaboration between Justin Rhoads, Jared Watson, Benjamin Tovar and myself . It was built using React, NodeJS and MongoDB. This application was then deployed to Heroku.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+          <!-- <div class="project-box col-lg-6 text-center">
+            <div class="project-name">
+              <a href="https://github.com/ZippyFPV/DroneDB"></i>DroneDB</a>
             </div>
             <a href="http://dronedatabase.herokuapp.com/" target="_blank" class="portfolio-box">
               <img src="assets/images/drone-shot2.png" class="project-image shadow-box" alt="Project Image">
             </a>
             <div class="portfolio-box-caption">
               <p style="padding-bottom: 9px;margin-top: 34px;margin-bottom: 62px;">This project was built as a collaboration between Justin Rhoads, Jared Watson, Benjamin Tovar and myself . It was built using React, NodeJS and MongoDB. This application was then deployed to Heroku. </p>
-
             </div>
-          </div>
-        </div>
+          </div> -->
+
       </div>
-      <div class="row">
+
+      <!-- <div class="row">
         <div class="project-box col-lg-6">
           <div class="project-name">
             <a href="https://github.com/Dane-Kilpatrick/geoquakes"></i>Geo Quakes</a>
           </div>
-            <a href="http://geoquake.bitballoon.com/" target="_blank">
-              <img src="assets/images/GeoQuake.png" class="project-image shadow-box" alt="Project Image">
-            </a>
+
+          <a href="http://geoquake.bitballoon.com/" target="_blank">
+            <img src="assets/images/GeoQuake.png" class="project-image shadow-box" alt="Project Image">
+          </a>
+
           <div class="portfolio-box-caption">
             <p>The application allows users to view recent earthquakes on a world map. The larger the circles, the larger the magnitude. This uses jQuery, the US Earthquake tracking API and Google Maps API.</p>
-
           </div>
         </div>
+
         <div class="project-box col-lg-6">
           <div class="project-name">
             <a href="https://github.com/Dane-Kilpatrick/tic-tac-toe"></i>Tic Tac Toe</a>
           </div>
             <a href="http://dk-tictactoe.bitballoon.com/" target="_blank">
-            <img src="assets/images/TicTacToe.png" class="project-image shadow-box" alt="Project Image">
-          </a>
+              <img src="assets/images/TicTacToe.png" class="project-image shadow-box" alt="Project Image">
+            </a>
           <div class="portfolio-box-caption">
             <p style="margin-bottom: 43px;">Used Javascript to create functional two player Tic Tac Toe game.</p>
-
           </div>
         </div>
-      </div>
+      </div> -->
+
     </div>
-  </div>
+
   </section>
   <!-- Contact-->
   <section class="bg-contact" id="contact" style="background-image: url('assets/images/Project-Wallpaper.jpg')">
@@ -167,6 +197,7 @@
       </div>
     </div>
   </section>
+
     <script>
       (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;

@@ -372,7 +372,6 @@ p, #projects, #contact{
 .neon-container {
 	display: flex;
 	flex-direction: column;
-	border: 1px solid red;
 }
 
 /* ========= Media Queries ========= */

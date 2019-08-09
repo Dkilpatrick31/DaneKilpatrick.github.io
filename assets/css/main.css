@@ -367,6 +367,14 @@ p, #projects, #contact{
 	min-height: 5%;
 }
 
+
+
+.neon-container {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid red;
+}
+
 /* ========= Media Queries ========= */
 @media (min-width: 1200px){
 		.profile-content {

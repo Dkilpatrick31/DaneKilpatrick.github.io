@@ -31,6 +31,12 @@ h2 {
 	font-size: 50px;
 }
 
+img {
+  width: 100% ;
+  max-width: 100% ;
+  height: auto ;
+}
+
 /* ========= Nav Bar ========= */
 .grow:hover {
   -webkit-transform: scale(1.28);
@@ -197,18 +203,6 @@ p, #projects, #contact{
 	margin: 15px;
 }
 
-.project-image {
-	height: 100%;
-	width: 100%;
-}
-
-#adopt-image,
-#drone-image,
-#geoquakes-image,
-#tic-tac-image {
-	height: 313px;
-}
-
 .project-name {
 	padding: 15px;
 	font-weight: bold;
@@ -337,10 +331,6 @@ p, #projects, #contact{
 			margin-left: 55px;
 		}
 
-		.project-image {
-			height: 100%;
-			width: 100%;
-		}
 		#adopt-image,
 		#drone-image,
 		#geoquakes-image,
